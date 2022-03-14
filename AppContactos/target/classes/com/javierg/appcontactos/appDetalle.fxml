@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="appDetalle" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javierg.appcontactos.AppDetalleController">
+   <children>
+      <VBox fx:id="vboxDatos" layoutX="84.0" layoutY="134.0" prefHeight="100.0" prefWidth="300.0" AnchorPane.leftAnchor="84.0" AnchorPane.rightAnchor="216.0">
+         <children>
+            <Label fx:id="nombreContacto" text="Label">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="numeroContacto" text="Label">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="edadContacto" text="Label">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="generoContacto" text="Label">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="rolContacto" promptText="Rol" />
+         </children>
+      </VBox>
+      <Button fx:id="modifRol" layoutX="84.0" layoutY="282.0" mnemonicParsing="false" text="Modificar Rol" />
+   </children>
+</AnchorPane>

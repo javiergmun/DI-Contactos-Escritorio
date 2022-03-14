@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="appVistaLista" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javierg.appcontactos.AppVistaListaController">
+   <children>
+      <TableView fx:id="tabla1" layoutX="116.0" layoutY="50.0" prefHeight="300.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="columnaNombre" prefWidth="100.0" text="Nombre" />
+          <TableColumn fx:id="columnaTlf" prefWidth="100.0" text="Telefono" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
